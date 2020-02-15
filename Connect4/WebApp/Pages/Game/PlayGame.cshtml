@@ -1,0 +1,60 @@
+﻿@page
+@using GameEngine
+@model WebApp.Pages.Game.PlayGame
+
+@{
+    ViewData["Title"] = "Play a game";
+}
+
+
+<h1>@Model.Engine.PlayerName</h1>
+
+<table class="table table-bordered" style="width: initial;">
+
+    <thead>
+    <tr>
+        <th></th>
+        @for (var x = 0; x < Model.Engine.BoardWidth; x++)
+        {
+            <th>
+                <a asp-page="./PlayGame" asp-route-gameId="@Model.Engine.GameId" asp-route-col="@x" class="btn btn-secondary btn-info">@x</a>
+            </th>
+        }
+    </tr>
+    </thead>
+    
+    <tbody>
+    @for (var y = 0; y < Model.Engine.BoardHeight; y++)
+    {
+        <tr>
+            <td>@y</td>
+            @for (var x = 0; x < Model.Engine.BoardWidth; x++)
+            {
+                <td>
+                    @Html.Raw(GetGameButtonLabel(Model.Engine.GetBoardCellValue(y,x)))
+                </td>
+            }
+        </tr>
+    }
+    </tbody>
+</table>
+<div>
+    <a asp-page="./GameStart" class="btn btn-secondary btn-info">Exit</a>
+</div>
+
+
+@functions
+{
+
+    string GetGameButtonLabel(CellState cellState)
+    {
+        return cellState switch
+        {
+            CellState.Empty => "&nbsp;",
+            CellState.X => "<b><font color=\"red\">X</font>",
+            CellState.O => "<b><font color=\"blue\">O</font>",
+            _ => "Z"
+            };
+    }
+
+}

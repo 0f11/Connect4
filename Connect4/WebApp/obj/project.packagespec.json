@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj",
+    "projectName": "WebApp",
+    "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj",
+    "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj": {
+            "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj"
+          },
+          "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj": {
+            "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\ROMMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROMMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj"
+              },
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\MenuSystem.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\MenuSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ROMMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROMMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj",
+        "projectName": "GameEngine",
+        "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\GameEngine.csproj",
+        "packagesPath": "C:\\Users\\ROMMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\GameEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROMMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\MenuSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\MenuSystem.csproj",
+        "projectName": "MenuSystem",
+        "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\MenuSystem.csproj",
+        "packagesPath": "C:\\Users\\ROMMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\MenuSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROMMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\ROMMI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ROMMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\ConsoleUI\\ConsoleUI.csproj"
+              },
+              "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ROMMI\\Connect4\\Connect4\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
